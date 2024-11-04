@@ -1,14 +1,62 @@
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+</head>
 
 <body>
 
-Hello Everyone!
-  
-</body>
-   
-</html>
+<div class="header">
+ <h3>Show and Tell :)</h3>
+</div>
 
+<div class="buttons">
+  <button class="buttons" onclick="show('div1')">Purple</button>
+  <button class="buttons" onclick="show('div2')">Yellow</button>
+  <button class="buttons" onclick="show('div3')">Blue</button>
+  <button class="buttons" onclick="show('div4')">Green</button>
+</div>
+
+<div id="div1" class="show">
+  <div class="box pink">
+    <div class="div1a">
+    
+    </div>
+    
+  </div>
+</div>
+
+<div id="div2" class="hide">
+  <div class="box yellow">
+        <div class="box2a">Box 1</div>
+        <div class="box2a">Box 2</div>
+        <div class="box2a">Box 3</div>
+  </div>
+</div>
+
+<div id="div3" class="hide">
+  <div class="box blue">
+    <div class="circle"></div>
+  </div>
+</div>
+
+<div id="div4" class="hide">
+  <div class="box green">
+    <div class="parent">
+      <div id="b1" class="blank" onclick="getValue()"></div>
+      <div id="b2" class="blank" onclick="select('Box 2')"></div>
+      <div id="b3" class="blank" onclick="select('Box 3')"></div>
+      <div id="b4" class="blank" onclick="select('Box 4')"></div>
+      <div id="b5" class="blank" onclick="select('Box 5')"></div>
+      <div id="b6" class="blank" onclick="select('Box 6')"></div>
+      <div id="b7" class="blank" onclick="select('Box 7')"></div>
+      <div id="b8" class="blank" onclick="select('Box 8')"></div>
+      <div id="b9" class="blank" onclick="select('Box 9')"></div>
+   
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>
