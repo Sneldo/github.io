@@ -21,7 +21,7 @@ body, html {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('https://github.com/Sneldo/sneldo.github.io/blob/main/Tennis%20Pic%20Black%20White.JPG?raw=true'); 
+    background-image: url('https://raw.githubusercontent.com/Sneldo/sneldo.github.io/main/Tennis%20Pic%20Black%20White.JPG');
     background-size: cover;
     background-position: center;
     z-index: -1;
