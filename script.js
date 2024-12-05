@@ -1,11 +1,8 @@
 function show(var1) {
-	document.getElementsByClassName('show')[0].className='hide';
-  
-  document.getElementById(var1).className='show';
+    // Hide all divs
+    const divs = document.querySelectorAll('.box');
+    divs.forEach(div => div.classList.remove('show'));
+
+    // Show the selected div
+    document.getElementById(var1).classList.add('show');
 }
-
-document.getElementById('divvy1').style.display = 'none';
-document.getElementById('divvy1').style.display = 'none';
-document.getElementById('divvy1').style.display = 'none';
-
-document.getElementById('var1').style.display = 'block';
