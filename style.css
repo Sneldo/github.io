@@ -3,71 +3,74 @@ html {
   width: 100%;
 }
 
-.header {
-  margin-bottom: 15px;
-  text-align: center;
-}
-
 .buttons {
   justify-content: center; 
   margin: 5px;
-  margin-bottom: 15px;
-  text-align: center;
-  padding: 10px 15px;
-  }
-
-.buttons:hover {
+  margin-left: 15px;
+  text-align: right;
+  padding: 5px 15px;
   cursor: pointer;
 }
 
-.show {
-  display: block;
-}
-
-.hide {
-  display: none;
-}
-
 .box {
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 15px;
-  text-align: center;
-  height: 300px;
-  width: 350px;
-  border: solid 2px black;
+  display: none; 
+  position: absolute;
+  padding: 20px;
+  color: white;
+  font-size: 18px;
+}
+
+#div1 {
+  width: 250px;
+  height: 200px;
+  top: 350px;
+  left: 100px;
+}
+
+#div2 {
+  width: 250px;
+  height: 200px;
+  top: 250px;
+  left: 250px;
+}
+
+#div3 {
+  width: 250px;
+  height: 200px;
+  top: 350px;
+  left: 350px;
+}
+
+#div4 {
+  width: 250px;
+  height: 200px;
+  top: 250px;
+  left: 450px;
+}
+
+#div5 {
+  width: 250px;
+  height: 200px;
+  top: 350px;
+  left: 550px;
 }
 
 
-.pink {
-  margin-top: 200px;
-  margin-left: 10px;
-  background-image: linear-gradient(to bottom, purple, lightblue);
-  }
-
-.yellow {
-  background-color: yellow;
+.adults { 
+ background-color: grey; 
 }
 
-.blue {
-  background-color: blue;
+.junior { background-color: grey; 
 }
 
-.green {
-  background-color: green;
+.lessons { background-color: grey; 
 }
 
-.grey {
-  background-color: grey;
+.pros { background-color: grey; 
 }
 
-.parent {
-  display: grid;
-  grid-template-columns: 60px 60px 60px;
-  grid-template-rows: 60px 60px 60px;
-  grid-gap: 20px;
-  margin-left: 150px;
-  margin-top: 40px;
-   }
-   
- 
+.contact { background-color: grey; 
+}
+
+
+.show { display: block; } 
